@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="edf3dca6-74ea-4a71-8706-60c97a89390c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/WebLogic/tao/source/SOURCE-CORE-6/chapter06_02/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sal?characterEncoding=utf8&amp;serverTimezone=UTC</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="bin:hibernate.cfg.xml/Hibernate" uuid="6ce5543c-8a04-4100-a3c1-bdaa30991ebe">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/WebLogic/tao/source/SOURCE-CORE-6/chapter06_02/bin/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
